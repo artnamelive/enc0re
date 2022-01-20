@@ -83,7 +83,7 @@ sub {
     bottom: -0.25em;
 }
 img {
-    border: 0;
+    border: auto;
 }
 svg:not(:root) {
     overflow: hidden;
@@ -238,9 +238,9 @@ body {
     color: #333;
 }
 img {
-    width: auto ;
-  max-width: 100% ;
-  height: auto ;
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
 }
 html.w-mod-touch * {
     background-attachment: scroll !important;
