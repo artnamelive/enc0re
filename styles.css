@@ -238,9 +238,9 @@ body {
     color: #333;
 }
 img {
-    max-width: 100%;
-    vertical-align: middle;
-    display: inline-block;
+    width: auto ;
+  max-width: 100% ;
+  height: auto ;
 }
 html.w-mod-touch * {
     background-attachment: scroll !important;
